@@ -6,4 +6,4 @@ loginApp.controller('AdminCtrl', ['$scope', 'UserService', 'AuthenticationServic
         $scope.ausgabe = "Was geht?";
         console.log("Hm isLogged? " + AuthenticationService.isLogged);
         console.log("User.name : " + UserService.getUserName());
-]);
+}]);
